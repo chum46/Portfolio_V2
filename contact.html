@@ -62,8 +62,11 @@
 
                 <nav role="navigation">
                     <ul id="menu-main" class="nav top-nav clearfix">
+                        <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10">
+                            <a href="index.html">Home</a>
+                        </li>
                         <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-10">
-                            <a href="http://novlmgmt.com/contact/">Contact</a>
+                            <a href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -85,15 +88,29 @@
 
                         <header class="article-header">
 
-                            <h1 class="page-title" itemprop="headline">Inquiries &#038; Booking</h1>
+                            <h1 class="page-title" itemprop="headline">Inquiries</h1>
 
                         </header>
                         <!-- end article header -->
 
                         <section class="entry-content clearfix" itemprop="articleBody">
-                            <p>If you&#8217;re interested in booking one of our amazing, huggable talents, please use the contact
-                                information below. All inquiries will be responded to promptly with a quote and availability.</p>
-                            <p>cmapa (at) novlmgmt.com</p>
+                            <div class="row">
+                                <div class="col-8">
+                                        <form action="#">
+                                                <span>Name</span><br>
+                                                <input id="name" type="text" name="name">
+                                                <br>
+                                                <span>Email</span><br>
+                                                <input id="email" type="text" name="email">
+                                                <br>
+                                                <span>Message</span><br>
+                                                <textarea id="message" name="message" rows="10" cols="100">
+                                                    </textarea>
+                                                <br>
+                                                <button id="submit" type="submit">Submit</button>
+                                            </form>
+                                </div>
+                            </div>
                         </section>
                         <!-- end article section -->
 
@@ -119,12 +136,12 @@
 
             <div id="inner-footer" class="wrap clearfix">
 
-                <p>For bookings or inquiries, please contact info@novlmgmt.com</p>
+                <p>For more information, please contact Chum: </p>
 
                 <nav role="navigation">
                     <ul id="menu-main-1" class="nav footer-nav clearfix">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-10">
-                            <a href="http://novlmgmt.com/contact/">Contact</a>
+                            <a href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </nav>
