@@ -1226,24 +1226,29 @@ SPLASH STYLES
     font-style: italic;
 }
 
+
 /* line 273, ../scss/_base.scss */
 #splash .bio {
     display: none;
 }
 
 /* line 277, ../scss/_base.scss */
-#splash #sK a {
+#splash #trivia a {
     background-image: url(../images/trivia-icon.png);
 }
 
 /* line 281, ../scss/_base.scss */
-#splash #mike a {
+#splash #takein a {
     background-image: url(../images/takeIN.png);
 }
 
 /* line 284, ../scss/_base.scss */
-#splash #chum a {
-    background-image: url(../images/chum-mapa.jpg);
+#splash #liri a {
+    background-image: url(../images/do-what-it-says.jpg);
+}
+
+#splash #kyf a {
+    background-image: url(../images/KYF_logo_modified.png);
 }
 
 /* line 289, ../scss/_base.scss */
