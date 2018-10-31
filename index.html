@@ -52,8 +52,8 @@
 
 <body class="home page page-id-4 page-template page-template-page-splash page-template-page-splash-php">
     <div id="container">
-        <header class="header" role="banner">
-            <div id="inner-header" class="wrap clearfix">
+        <header class="header" role="banner" id="banner">
+            <div id="inner-header" class="wrap clearfix" style="border-bottom: 1px solid #56565648; padding-bottom: 5px">
                 <a href="index.html" id="logo" rel="nofollow">Chum Mapa</a>
                 <nav role="navigation">
                     <ul id="menu-main" class="nav top-nav clearfix">
@@ -77,22 +77,21 @@
                 <article id="post-4" class="clearfix post-4 page type-page status-publish hentry" role="article" itemscope itemtype="http://schema.org/BlogPosting">
                     <header class="article-header">
                         <h3 class="splashTitle">Welcome!</h3>
+                        <p>Thank you for viewing my portfolio:</p>
                     </header>
                 </article>
                 <div id="splash">
-                    <div class="fourcol first splashPort" id="trivia" style="margin-top: 100px">
-                        <div class="words">
-                            <h2 style="background-color: #e98101ce">Keep Summer Safe</h2>
-                            <p style="background-color: #e98101ce">Trivia Game</p>
+                    <div class="fourcol splashPort first" id="kyf">
+                        <div class="words" id="black">
+                            <h2 style="background-color: #e98101e3">Know Your Feed</h2>
+                            <p style="background-color: #e98101e3">Twitter Game</p>
                         </div>
                         <div class="bio">
-                            <a href="https://chum46.github.io/TriviaGame/" alt="Keep Summer Safe Trivia Game">
-                                TV themed trivia game based on the series "Rick and Morty". Answer each question before the 15 second timer runs out. Score
-                                better than 50% to keep Summer safe.
-                            </a>
+                            <a href="https://knowyourfeed.herokuapp.com/" alt="Know Your Feed">
+                                Match the celebrity with their latest tweets, do you know your feed? </a>
                         </div>
-                        <a href="https://chum46.github.io/TriviaGame/" alt="Keep Summer Safe">
-                            <img src="./assets/images/Trivia.JPG" alt="Trivia Game" />
+                        <a href="https://knowyourfeed.herokuapp.com/" alt="KYF">
+                            <img src="./assets/images/KYF_logo v1.4.png" alt="KnowYourFeed" />
                         </a>
                     </div>
                     <div class="fourcol splashPort" id="takein">
@@ -148,19 +147,22 @@
                     </header>
                 </article>
                 <div id="splash">
-                    <div class="fourcol splashPort first" id="kyf">
-                        <div class="words" id="black">
-                            <h2 style="background-color: #e98101e3">Know Your Feed</h2>
-                            <p style="background-color: #e98101e3">Twitter Game</p>
+                    <div class="fourcol first splashPort" id="trivia" style="margin-top: -100px">
+                        <div class="words">
+                            <h2 style="background-color: #e98101ce">Keep Summer Safe</h2>
+                            <p style="background-color: #e98101ce">Trivia Game</p>
                         </div>
                         <div class="bio">
-                            <a href="https://github.com/chum46/Project2.1" alt="Know Your Feed">
-                                Match the celebrity with their latest tweets, do you know your feed? </a>
+                            <a href="https://chum46.github.io/TriviaGame/" alt="Keep Summer Safe Trivia Game">
+                                TV themed trivia game based on the series "Rick and Morty". Answer each question before the 15 second timer runs out. Score
+                                better than 50% to keep Summer safe.
+                            </a>
                         </div>
-                        <a href="https://github.com/chum46/Project2.1" alt="KYF">
-                            <img src="./assets/images/KYF_logo v1.4.png" alt="KnowYourFeed" />
+                        <a href="https://chum46.github.io/TriviaGame/" alt="Keep Summer Safe">
+                            <img src="./assets/images/Trivia.JPG" alt="Trivia Game" />
                         </a>
                     </div>
+
                     <div class="fourcol splashPort" id="liri">
                         <div class="words">
                             <h2>Train Scheduler</h2>
@@ -168,8 +170,8 @@
                         </div>
                         <div class="bio">
                             <a href="https://chum46.github.io/TrainScheduler/" alt="Train Scheduler">
-                                Train schedule application that incorporates Firebase to host arrival and departure data. The app retrieves and manipulates this 
-                                information with Moment.js to to tell the user when the next train will arrive. 
+                                Train schedule application that incorporates Firebase to host arrival and departure data. The app retrieves and manipulates
+                                this information with Moment.js to to tell the user when the next train will arrive.
                             </a>
                         </div>
                         <a href="https://chum46.github.io/TrainScheduler/" alt="TrainScheduler">
@@ -192,21 +194,7 @@
 
                 <div id="main" role="main">
                     <article id="post-4" class="clearfix post-4 page type-page status-publish hentry" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-                        <!-- <header class="article-header">
-                            <h3 class="splashTitle">Welcome!</h3>
-                        </header> -->
-                        <!-- end article header -->
-                        <!-- <section class="entry-content clearfix splashPara" itemprop="articleBody">
-                            <p>I am currently studying full stack web development and have an undergraduate degree from Purdue
-                                University (BS, Mechanical Engineering Technology, 2007). For the last 10 years my professional
-                                background has been in the mechanical engineering and industrial automation fields. Most
-                                recently I worked as an Engineering Specialist for Fastenal Company’s national accounts team
-                                where I provided design consultation, application assistance, failure analysis and training
-                                for qualifying customers. Outside of the manufacturing industry I am a visual artist and
-                                stay connected to the Chicago art community by helping produce quarterly exhibitions for
-                                local artists. In learning full-stack programming, I hope to move into a more creative, fast-paced,
-                                and progressive work environment that will merge my engineering, sales, and artistic backgrounds.</p>
-                        </section> -->
+
                         <!-- end article section -->
                         <footer class="article-footer"></footer>
                         <!-- end article footer -->
@@ -226,6 +214,11 @@
                     <ul id="menu-main-1" class="nav footer-nav clearfix">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-10">
                             <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/chaminda-chum-mapa-22506041/" style="padding: 0">
+                                <img height=40 width=100 src="./assets/images/View-my-LinkedIn-profile-image-3-300x140.png" alt="linkedin">
+                            </a>
                         </li>
                     </ul>
                 </nav>
