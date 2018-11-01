@@ -1248,6 +1248,10 @@ SPLASH STYLES
     background-image: url(../images/do-what-it-says.jpg);
 }
 
+#splash #burger a {
+    background-image: url(../images/if_burger_1760342.png);
+}
+
 #splash #kyf a {
     background-image: url(../images/KYF_logo_modified.png);
 }
