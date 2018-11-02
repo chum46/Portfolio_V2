@@ -1065,9 +1065,10 @@ HEADER STYLES
 #logo {
     background: url(../images/portfolio_logo.png) no-repeat;
     background-size: cover;
-    display: block;
-    min-width: 250px;
-    width: 50%;
+    display: inline-block;
+    max-width: 250px;
+    /* min-height: 75px; */
+    width: 100%;
     height: 40px;
     text-indent: -9999px;
     padding: 0;
@@ -1092,7 +1093,7 @@ and more scalable.
 /* line 126, ../scss/_base.scss */
 .nav {
     border-bottom: 0;
-    display: none;
+    /* display: none; */
     /* end .menu li */
     /* highlight current page */
     /* end current highlighters */
@@ -1120,6 +1121,7 @@ and more scalable.
 .nav li a {
     display: block;
     text-decoration: none;
+    float: left;
     height: 40px;
     line-height: 40px;
     padding: 0 15px;
@@ -1928,6 +1930,7 @@ you can add resource intensive styles.
     /* line 55, ../scss/_768up.scss */
     .nav li a {
         border-bottom: 0;
+        margin-top: 5px;
         /*
     you can use hover styles here even though this size
     has the possibility of being a mobile device.
@@ -2304,4 +2307,16 @@ be set to display none.
     .sidebar, .page-navigation, .wp-prev-next, .respond-form, nav {
         display: none;
     }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    #nav {
+        padding-right: 25px;
+        position: absolute;
+    }
+
 }
