@@ -828,7 +828,7 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 /* line 30, ../scss/_typography.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-    font-family: "Wire One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Wire One', sans-serif;
     text-rendering: optimizelegibility;
     font-weight: 400;
     text-transform: uppercase;
@@ -1216,7 +1216,7 @@ SPLASH STYLES
 
 /* line 257, ../scss/_base.scss */
 #splash .words h2 {
-    font-family: "Wire One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Wire One', sans-serif;
     line-height: 60px;
     font-size: 50px;
     color: #fff;
