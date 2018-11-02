@@ -1039,7 +1039,7 @@ a, a:visited {
 
 /* line 72, ../scss/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #fe8f0b;
+    /* color: #fe8f0b; */
 }
 
 /* line 82, ../scss/_base.scss */
@@ -1049,7 +1049,7 @@ a:link, a:visited:link {
   so it basically works like the :hover selector
   for mobile devices.
   */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); */
 }
 
 /*********************
@@ -1156,7 +1156,10 @@ SPLASH STYLES
     display: block;
     background-size: cover;
     background-repeat: none;
-    background-color: #e97f01;
+    background-color: #302e2c;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
 }
 
 /* line 222, ../scss/_base.scss */
@@ -1168,7 +1171,7 @@ SPLASH STYLES
     border-radius: 2px;
     position: relative;
     z-index: 1;
-    opacity: 0;
+    /* opacity: 0; */
     -webkit-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -1186,20 +1189,20 @@ SPLASH STYLES
 }
 
 /* line 244, ../scss/_base.scss */
-#splash .splashPort:hover img {
+/* #splash .splashPort:hover img {
     opacity: 0;
-}
+} */
 
 /* line 245, ../scss/_base.scss */
-#splash .splashPort:hover .words {
+/* #splash .splashPort:hover .words {
     opacity: 0;
     top: 100%;
-}
+} */
 
 /* line 247, ../scss/_base.scss */
 #splash .words {
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: 100%;
     text-align: center;
     z-index: 100;
@@ -1208,6 +1211,7 @@ SPLASH STYLES
     -o-transition: all 0.2s ease-in-out;
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 /* line 257, ../scss/_base.scss */
@@ -1231,39 +1235,41 @@ SPLASH STYLES
 
 
 /* line 273, ../scss/_base.scss */
-#splash .bio {
-    display: none;
+#splash .bio a{
+    /* display: none; */
+    color: #fff;
+    background-color: rgba(233, 127, 1, 0.8);
 }
 
 /* line 277, ../scss/_base.scss */
 #splash #trivia a {
-    background-image: url(../images/trivia-icon.png);
+    /* background-image: url(../images/trivia-icon.png); */
 }
 
 /* line 281, ../scss/_base.scss */
 #splash #takein a {
-    background-image: url(../images/takeIN.png);
+    /* background-image: url(../images/colorful-vegetables_650x350.jpg); */
 }
 
 /* line 284, ../scss/_base.scss */
 #splash #liri a {
-    background-image: url(../images/do-what-it-says.jpg);
+    /* background-image: url(../images/do-what-it-says.jpg); */
 }
 
 #splash #burger a {
-    background-image: url(../images/if_burger_1760342.png);
+    /* background-image: url(../images/if_burger_1760342.png); */
 }
 
 #splash #kyf a {
-    background-image: url(../images/KYF_logo_modified.png);
+    /* background-image: url(../images/KYF_logo_modified.png); */
 }
 
 #splash #friend a {
-    background-image: url(../images/Palm_650x350.jpg);
+    /* background-image: url(../images/Palm_650x350.jpg); */
 }
 
 #splash #github a {
-    background-image: url(../images/github_650x350.png);
+    /* background-image: url(../images/github_650x350.png); */
 }
 
 /* line 289, ../scss/_base.scss */
@@ -1390,7 +1396,7 @@ PAGE NAVI STYLES
 
 /* line 441, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link a:hover, .bones_page_navi li.bpn-next-link a:hover, .bones_page_navi li.bpn-first-page-link a:hover, .bones_page_navi li.bpn-last-page-link a:hover {
-    background: none;
+    /* background: none; */
 }
 
 /* end .bones_page_navi */
@@ -2000,12 +2006,12 @@ you can add resource intensive styles.
 
     /* line 154, ../scss/_768up.scss */
     #splash .splashPort:hover .bio {
-        bottom: 0;
+        /* bottom: 0; */
     }
 
     /* line 158, ../scss/_768up.scss */
     #splash .bio {
-        position: absolute;
+        position: relative;
         bottom: -100%;
         display: block;
         z-index: 50;
@@ -2016,6 +2022,7 @@ you can add resource intensive styles.
         -o-transition: all 0.2s ease-in-out;
         -transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
+        color: #fff;
     }
 
     /* line 168, ../scss/_768up.scss */
@@ -2026,21 +2033,22 @@ you can add resource intensive styles.
         background-color: rgba(233, 127, 1, 0.8);
         background-image: none !important;
         text-decoration: none;
+        height: 110px;
     }
 
     /* line 178, ../scss/_768up.scss */
     #splash #sK a {
-        background-image: url(../images/trivia-icon.png);
+        /* background-image: url(../images/trivia-icon.png); */
     }
 
     /* line 182, ../scss/_768up.scss */
     #splash #mike a {
-        background-image: url(../images/takeIN.png);
+        /* background-image: url(../images/takeIN.png); */
     }
 
     /* line 185, ../scss/_768up.scss */
     #splash #chum a {
-        background-image: url(../images/chum-mapa.jpg);
+        /* background-image: url(../images/chum-mapa.jpg); */
     }
 
     /*********************
