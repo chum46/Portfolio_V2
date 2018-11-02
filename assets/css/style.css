@@ -1256,6 +1256,14 @@ SPLASH STYLES
     background-image: url(../images/KYF_logo_modified.png);
 }
 
+#splash #friend a {
+    background-image: url(../images/Palm_650x350.jpg);
+}
+
+#splash #github a {
+    background-image: url(../images/github_650x350.png);
+}
+
 /* line 289, ../scss/_base.scss */
 h3.splashTitle {
     margin: 20px auto 0px;
